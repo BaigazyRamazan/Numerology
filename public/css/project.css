@@ -1,0 +1,754 @@
+body {
+    min-width: 99%;
+    width: 100%;
+    margin: 0;
+}
+
+@media screen and (min-width:1024px) {
+    .hidesm {
+        display: none !important;
+    }
+    .my-main {
+        height: 350px;
+    }
+    .hidesm a {
+        margin: 0 !important;
+    }
+    .my-accordion {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .slide-bar {
+        display: none !important;
+    }
+    .logout {
+        display: none !important;
+    }
+}
+
+.my-icon-bar {
+    max-height: 90px;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    background-color: rgb(37, 47, 78);
+    color: #a2b1df;
+    /* #a2b1df */
+}
+
+.my-icon-bar div {
+    width: 25%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.my-icon-bar a {
+    color: #a2b1df;
+    text-decoration: none;
+    margin: 0px 0 0 0;
+}
+
+.my-icon-bar i {
+    font-size: inherit;
+}
+
+.my-icon-bar div:hover {
+    border: 1px solid black;
+}
+
+.my-active {
+    width: 20%;
+    background-color: #0199dc;
+    height: 70px;
+    color: white !important;
+}
+
+.logout {
+    padding-left: 10px;
+    display: none;
+    float: right;
+    background-color: rgb(37, 47, 78);
+    color: #a2b1df;
+    position: relative;
+    top: -26px;
+}
+
+.my-accordion {
+    width: 100%;
+    background-color: whitesmoke;
+    display: none;
+    /* display: block; */
+    cursor: default;
+    font-family: Verdana, sans-serif;
+}
+
+.logout-sm {
+    text-align: center;
+    display: none;
+    color: black;
+}
+
+.my-main {
+    background-image: url(../images/numbers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    /* height: 350px; */
+    /* height: 35vw; */
+    width: 100%;
+    padding: 30px 0 0 30px;
+    color: white;
+}
+
+.my-main a {
+    color: #ccffff;
+}
+
+.my-main i {
+    font-size: 36px;
+}
+
+.main-paragraph {
+    width: 70%;
+}
+
+#hidden-paragraph {
+    font-size: 120%;
+}
+
+.main-input {
+    width: 100%;
+}
+
+.my-body {
+    width: 100%;
+    height: auto;
+    padding: 5px 30px 0 30px;
+}
+
+@media screen and(max-width: 358px) {
+    .body-input {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:358px) {
+    .body-input {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:626px) {
+    .body-input {
+        width: 50%;
+    }
+}
+
+.body-input {
+    background-color: #3399ff;
+    padding: 5px 10px 0px 5px;
+    border-radius: 5px;
+}
+
+.body-input input {
+    border-radius: 7px;
+}
+
+.body-input label {
+    font-weight: 450;
+}
+
+
+/* @media screen and (max-width:730px){
+    #myResult{
+        width: ;
+    }
+} */
+
+#myResult {
+    /* width: 75%; */
+    background-color: whitesmoke;
+    height: auto;
+    display: none;
+}
+
+#nameNumerology {
+    text-align: center;
+}
+
+#birthNumerology {
+    text-align: center;
+}
+
+.advertising {
+    background-color: white;
+    height: 90px;
+    float: right;
+    width: 20%;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 376px) {
+    .my-card p {
+        font-size: 3vw;
+    }
+    .expression-class h4 {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (min-width:376px) {
+    .my-card p {
+        font-size: 3vw;
+    }
+    .answer h4 {
+        font-size: 3vw;
+    }
+    .answer p {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (min-width:546px) {
+    .my-card p {
+        font-size: 15px;
+    }
+    .answer p {
+        font-size: 15px;
+    }
+}
+
+.my-card {
+    /* background-image: url('http://www.numeroscop.ru/img/icons/normal-number-icon.png') !important; */
+    width: 33.33%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: #0199dc !important;
+}
+
+.my-content {
+    display: flex;
+}
+
+.numbers {
+    font-size: 400%;
+}
+
+.result h1 {
+    text-align: center;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:668px) {
+    .answer h4 {
+        font-size: 120%;
+        font-weight: 500;
+    }
+}
+
+.answer {
+    padding: 0 0 0 1vw;
+}
+
+.answer h3 {
+    font-weight: 500;
+}
+
+.answer h4 {
+    display: inline;
+}
+
+.answer a {
+    color: #0199dc;
+}
+
+.arrow {
+    float: right;
+}
+
+#eNum1,
+#eNum2,
+#eNum3,
+#eNum4,
+#eNum5,
+#eNum6,
+#eNum7,
+#eNum8,
+#eNum9 {
+    display: none;
+}
+
+#desNum1,
+#desNum2,
+#desNum3,
+#desNum4,
+#desNum5,
+#desNum6,
+#desNum7,
+#desNum8,
+#desNum9 {
+    display: none;
+}
+
+#personNum1,
+#personNum2,
+#personNum3,
+#personNum4,
+#personNum5,
+#personNum6,
+#personNum7,
+#personNum8,
+#personNum9 {
+    display: none;
+}
+
+#lifeNum1,
+#lifeNum2,
+#lifeNum3,
+#lifeNum4,
+#lifeNum5,
+#lifeNum6,
+#lifeNum7,
+#lifeNum8,
+#lifeNum9 {
+    display: none;
+}
+
+#dNum1,
+#dNum2,
+#dNum3,
+#dNum4,
+#dNum5,
+#dNum6,
+#dNum7,
+#dNum8,
+#dNum9 {
+    display: none;
+}
+
+.my-settings {
+    text-align: center;
+}
+
+.login {
+    padding-left: 90px;
+    /* display: flex !important; */
+    justify-content: space-around;
+}
+
+.login i {
+    height: 24px;
+    float: left;
+}
+
+
+/* .login p {
+    padding-left: 3px;
+    display: flex;
+} */
+
+.my-panel {
+    width: inherit;
+}
+
+.popOutSignUp {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/office.jpg');
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 544px) {
+    .popOut-content {
+        width: 400px !important;
+        padding: 25px 15px 0px !important;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .popOut-content {
+        width: 290px !important;
+        padding: 20px 5px 0px !important;
+    }
+}
+
+.popOut-content {
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    padding: 40px 30px 0px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+@media screen and (max-width: 544px) {
+    .popOut-form input {
+        width: 300px !important;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .popOut-form input {
+        width: 200px !important;
+    }
+}
+
+.popOut-form {
+    display: block;
+    justify-content: space-around;
+    padding: 0 30px 0;
+    text-transform: uppercase;
+}
+
+.popOut-form input {
+    display: block;
+    margin: 10px;
+    width: 350px;
+    padding: 7px 5px;
+}
+
+.popOut-form a {
+    color: black;
+}
+
+@media screen and (max-width: 544px) {
+    .check-form {
+        display: inline !important;
+    }
+}
+
+.check-form {
+    display: flex;
+    background-color: white;
+    color: black;
+    padding: 10px 0 0 10px;
+    height: 25px;
+}
+
+.check-form p {
+    font-weight: 500;
+    font-size: small;
+    margin: 0 0 13px 3px;
+}
+
+.submit-form {
+    width: inherit;
+    background-color: #80bfff;
+    border-radius: 3px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 5px 0 0 0;
+    /* width: inherit;
+    background-color: #80bfff;
+    border-radius: 3px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 0px 0 0 0; */
+}
+
+@media screen and (max-width: 544px) {
+    .switch {
+        font-size: 13px !important;
+    }
+}
+
+.closeTags {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    cursor: pointer;
+    color: white;
+}
+
+.popOutLogIn {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.ajnnews.com/wp-content/uploads/2013/07/shutterstock_80943343.jpg');
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.features {
+    width: 100%;
+    background-color: whitesmoke;
+    height: auto;
+}
+
+.features h2 {
+    text-align: center;
+}
+
+.pre-header {
+    font-weight: bold;
+    margin: -10px 0 10px 0;
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+}
+
+@media screen and (max-width:644px) {
+    .index-main-links {
+        display: block !important;
+    }
+}
+
+.index-main-links {
+    display: flex;
+    /* padding-left: 20px; */
+}
+
+@media screen and (max-width:768px) {
+    .col-md-4 {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .col-sm-4 {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .col-sm-4 {
+        display: none !important;
+    }
+    .div-sm {
+        display: block !important;
+    }
+}
+
+.div-sm {
+    display: none;
+}
+
+@media screen and (max-width:644px) {
+    .div-img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+
+.div-img {
+    width: auto;
+    height: auto;
+}
+
+.index-main-links p {
+    color: #555;
+    font-size: 14px;
+}
+
+@media screen and (max-width:1304px) {
+    #map {
+        width: 450px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width:1207px) {
+    #map {
+        display: none;
+    }
+}
+
+#map {
+    height: 400px;
+    width: 600px;
+}
+
+@media screen and (max-width:1207px) {
+    .contact {
+        justify-content: flex-start !important;
+        padding: 0 0 0 5%;
+    }
+}
+
+.contact {
+    display: flex;
+    margin: 10% 0 0;
+    justify-content: space-around;
+}
+
+.contact h1 {
+    font-style: italic;
+    border-bottom: 1px solid #252f4e;
+    color: #0199dc
+}
+
+.contact p {
+    color: #0199dc;
+}
+
+.contact i {
+    float: left;
+}
+
+.contact a {
+    color: #0199dc;
+    white-space: none;
+    display: block;
+}
+
+@media screen and (max-width:445px) {
+    .information {
+        display: block !important;
+    }
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.location {
+    height: 200px;
+    width: 50%;
+    padding: 0 15px 0 0;
+}
+
+.contact-us {
+    height: 200px;
+    width: 50%;
+    padding: 0 0px 0 15px;
+}
+
+.icons-container {
+    display: flex;
+}
+
+.icons-container div {
+    width: 50px;
+    height: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 25px;
+    padding: .5em;
+    margin: 5px;
+}
+
+.icons-container a {
+    color: #818a91 !important;
+}
+
+@media screen and (max-width:1207px) {
+    .second-map {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .second-map {
+        height: 300px !important;
+    }
+}
+
+.second-map {
+    display: flex;
+    justify-content: center;
+    padding: 0 5% 0;
+    display: none;
+    width: 95%;
+    height: 400px;
+}
+
+#map2 {
+    padding: 0;
+    width: inherit;
+    height: inherit;
+    margin: 0 5% 0;
+}
+
+/* PHP back end */
+
+.loginPHP {
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.ajnnews.com/wp-content/uploads/2013/07/shutterstock_80943343.jpg');
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpPHP {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/office.jpg');
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-barPHP{
+    width: 12.5% !important;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.dropdownPHP {
+    background-color: rgb(37, 47, 78) !important;
+}
+
+a.dropdown-itemPHP:hover {
+    background-color: #0199dc !important;
+}
+
+.dashboardPHP {
+    padding-left: 10px;
+    float: right;
+    background-color: rgb(37, 47, 78);
+    color: #a2b1df;
+    position: relative;
+    top: -26px;
+}
+
+.profile{
+    width: auto;
+    height: auto;
+    padding: 3px;
+    border: 1px hsl(0,0,90%);
+}
+
+.profile:hover{
+    background-color: hsla(0, 0%, 100%,50%);
+}
